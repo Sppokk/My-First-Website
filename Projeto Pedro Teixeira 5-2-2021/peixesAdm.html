@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish Hobby</title>
+    <link rel="shortcut icon" type="image/png" href="img/goldFish.png" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>Bem-vindo ao Fish Hobby</h1>
+        <h4>A sua fonte de informação do mundo da aquariofilia!</h4>
+
+    </header>
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Bem-vindo</a>
+            <div class="dropdown">
+                <button class="dropbtn">Mais
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="peixes.html">Peixes</a>
+                    <a href="plantas.html">Plantas</a>
+                    <a href="filtros.html">Filtros</a>
+                    <a href="outrosComponentes.html">Outros Componentes</a>
+                </div>
+            </div>
+            <a href="acerca.html">Acerca</a>
+            <a href="javascript:void(0);" class="icon" onclick="navBar()">&#9776;</a>
+        </div>
+    </nav>
+
+    <div class="main">
+
+        <h1>Registo de Espécie</h1>
+                <form id="registoPeixe">
+                    <div>
+                        <label for="especie">Espécie: </label>
+                        <div >
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                    </div>
+                    <div class=>
+                        <label for="album">Descrição: </label>
+                        <div>
+                            <input type="text" id="descricao" name="descricao" required>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="tamanho">Tamanho em adulto (cm): </label>
+                        <div>
+                            <input type="number" id="tamanho" name="tamanho" min="2" max="50" required>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="cardume">Cardume: </label>
+                        <div>
+                            <select id="cardume" name="cardume" required>
+                                <option value="0">-- Selecione uma opção --</option>
+                                <option value="Sim">Sim</option>
+                                <option value="Não">Não</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <input type="checkbox" id="ameacada" name="ameacada" >
+                            <label for="ameacada">Espécie ameaçada? </label>
+                        </div>
+                    </div>
+                    <p><input type="submit" id="btRegistar" value="Registar Espécie"></p>
+                </form><br><br>
+
+                <div class="procuraPeixe  col-12 col-sm-12 col-md-6 col-lg-4 col-xl-2">
+                    <label for="procura">Procura: </label>
+
+                    <input type="text" id="procura" name="procura">
+
+
+                    <input type="button" id="btProcura" value="Procura">&nbsp;<input type="button" id="btLimpaProcura"
+                        value="Limpar procura">
+
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-2">
+                    <h2>Lista de Peixes</h2>
+                    <p>Clique em cima de um registo para ver melhor</p>
+                    <table id="tabeladados" class="table">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Nome da Espécie</th>
+                                <th>Descrição</th>
+                                <th>Tamanho em adulto</th>
+                                <th>Cardume</th>
+                                <th>Espécie ameaçada?</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+
+                                <td colspan="6" class="total">Total de espécies: <span id="totalRegistos"></span>
+                                </td>
+                            </tr>
+                        </tfoot>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div id="infoRegisto"></div>
+            
+
+
+      
+
+
+                
+
+                
+
+
+        </div>
+    </div>
+
+    <footer>
+        <p class="creditos">@copyright Pedro Teixeira</p>
+    </footer>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="peixesAdm.js"></script>
+    <script src="jsProjetoFinal.js"></script>
+
+</body>
+
+</html>

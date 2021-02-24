@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish Hobby</title>
+    <link rel="shortcut icon" type="image/png" href="img/goldFish.png"/>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>Bem-vindo ao Fish Hobby</h1>
+        <h4>A sua fonte de informação do mundo da aquariofilia!</h4>
+    </header>
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Bem-vindo</a>
+            <div class="dropdown">
+              <button class="dropbtn">Mais
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="peixes.html">Peixes</a>
+                <a href="plantas.html">Plantas</a>
+                <a href="filtros.html">Filtros</a>
+                <a href="outrosComponentes.html">Outros Componentes</a>
+              </div>
+            </div>
+            <a href="acerca.html">Acerca</a>
+            <a href="javascript:void(0);" class="icon" onclick="navBar()">&#9776;</a>
+          </div>
+    </nav>
+    <div class="main">
+        <div class="row">
+            <div class="slideshow-container col-8">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 4</div>
+                    <img src="img/anubia.jpg" style="width:100%">
+                    <div class="text plantas">Anubia</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 4</div>
+                    <img src="img/plantado.jpg" style="width:100%">
+                    <div class="text plantas">Aquário Plantado</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 4</div>
+                    <img src="img/bolaMusgo.jpg" style="width:100%">
+                    <div class="text plantas">Bola de Musgo</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 4</div>
+                    <img src="img/bonsai.jpg" style="width:100%">
+                    <div class="text plantas">Estilo Bonsai</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div><br>
+            
+
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+            
+            <section class="col-8">
+
+                <h3>A importância das plantas no aquário</h3>
+                <p>As plantas de aquário produzem oxigénio, observem o dióxido de carbono produzido pelos peixes e
+                    ajudam à renovação dos detritos orgânicos. Estas capacidades permitem à plantas contribuírem de
+                    forma decisiva para a criação de um ambiente estável no aquário. Além disso, limpam também a água de
+                    resíduos orgânicos originados pelas secreções dos peixes e pela alimentação, que se depositam na
+                    água. As substâncias azotadas que daí resultam são decompostas pela água e utilizadas como adubo.
+                </p>
+
+                <h3>A constituição da planta</h3>
+                <p>A parte aérea das plantas caulescentes é constituída por caule, folhas e flor. Caule é, segundo a
+                    botânica, o eixo principal da planta, quer se trate de um pezinho tenro, como na limnophila, ou do
+                    tronco de uma sequoia gigante. A parte terminal do caule é a zona de crescimento da planta e
+                    chama-se cone ou ponto vegetativo.</p>
+
+                <p>Os caules podem crescer eretos ou difusos. As plantas caulenses têm um caule ereto e as folhas
+                    distribuem-se separadas entre si, permitindo ver o caule, enquanto as plantas acaules (ou de roseta)
+                    possuem um caule difuso e ramificado. As folhas encontram-se muito juntas, com entrenós muito
+                    curtos, formando uma roseta a partir do colo da planta.</p>
+
+                <p>As folhas nascem do caule. Dividem-se em limbo (a parte à qual chamamos “folha”) e pecíolo. Nas plantas com caules eretos, o local onde nascem apresenta-se muitas vezes saliente e tem o nome de nó. Os intervalos entre as folhas chamam-se entrenós. Na parte superior do limbo, no pecíolo e na bainha, todos verdes, encontram-se os tecidos de assimilação, que contém clorofila e onde se realiza a fotossíntese. Na parte inferior das folhas das plantas terrestres e nas folhas aéreas das plantas palustres ficam as estomas, que as plantas podem abrir ou fechar. Através destas aberturas, realiza-se a troca gasosa, isto é, a absorção e libertação de oxigénio e dióxido de carbono, assim como a libertação do vapor de água. As folhas subaquáticas não possuem estomas e a respiração processa-se por toda a superfície da folha.</p>
+
+                 <p>A raiz fixa a planta ao solo e absorve os nutrientes aí contidos.</p>
+
+                <img src="img/cicloAzoto.jpg">
+                <P>Esquema do Ciclo de Azoto</P>
+ 
+            </section>
+            <aside class="col-4">
+                <div class="asideDiv">
+                    <img src="img/valisneria.jpg" alt="valisneria">
+                    <P>Planta valisnéria</P>
+                    <br>
+                    <img src="img/anubiaDesenho.jpeg" alt="anubiaDesenho">
+                    <P>Planta anúbia</P>
+                    <br>
+                </div>
+            </aside>
+
+        </div>
+    </div>
+    <footer>
+
+        <p class="creditos">@copyright Pedro Teixeira</p>
+    </footer>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="jsProjetoFinal.js"></script>
+
+
+</body>
+
+</html>

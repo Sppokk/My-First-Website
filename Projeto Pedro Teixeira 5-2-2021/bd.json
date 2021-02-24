@@ -1,0 +1,44 @@
+{
+  "peixes": [
+    {
+      "nome": "Guppy",
+      "descricao": "Ideal para comunitários",
+      "tamanho": "4",
+      "cardume": "Sim",
+      "ameacada": true,
+      "id": 2
+    },
+    {
+      "nome": "Escalar",
+      "descricao": "Peixe de tamanho médio, gosta de águas calmas e de nadar em cardume.",
+      "tamanho": "15",
+      "cardume": "Sim",
+      "ameacada": false,
+      "id": 3
+    },
+    {
+      "nome": "Néon",
+      "descricao": "Ideal para comunitários. Não deve ser mantido com peixes de grandes dimensões pois pode ser considerado presa fácil. Muito colorido com tons de azul e vermelho.",
+      "tamanho": "4",
+      "cardume": "Sim",
+      "ameacada": false,
+      "id": 4
+    },
+    {
+      "nome": "Barbo Puntius",
+      "descricao": "Peixe muito activo, pacífico, que precisa de muito espaço para nadar e sentir-se confortável. Deve ser mantido em grupos e não é perigoso para espécies mais pequenas.",
+      "tamanho": "12",
+      "cardume": "Sim",
+      "ameacada": false,
+      "id": 5
+    },
+    {
+      "nome": "Betta Splenders",
+      "descricao": "Peixe de águas calmas, com coloração variável conforme as variedades presentes no mercado. Os machos não devem ser mantidos com outros machos pois lutam até a morte e , quando com fêmeas, o aquário deve ser grande o suficiente e com refúgios para que estas se protejam. Podem ser mantidos em aquários pequenos como espécie solitátia. ",
+      "tamanho": "5",
+      "cardume": "Não",
+      "ameacada": false,
+      "id": 6
+    }
+  ]
+}

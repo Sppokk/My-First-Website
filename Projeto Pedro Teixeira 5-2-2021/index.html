@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish Hobby</title>
+    <link rel="shortcut icon" type="image/png" href="img/goldFish.png" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Bem-vindo ao Fish Hobby</h1>
+        <h4>A sua fonte de informação do mundo da aquariofilia!</h4>
+    </header>
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Bem-vindo</a>
+            <div class="dropdown">
+                <button class="dropbtn">Mais
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="peixes.html">Peixes</a>
+                    <a href="plantas.html">Plantas</a>
+                    <a href="filtros.html">Filtros</a>
+                    <a href="outrosComponentes.html">Outros Componentes</a>
+                </div>
+            </div>
+            <a href="acerca.html">Acerca</a>
+            <a href="javascript:void(0);" class="icon" onclick="navBar()">&#9776;</a>
+        </div>
+    </nav>
+
+
+    <div class="main">
+        <div class="row">
+            <div class="slideshow-container col-12">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 5</div>
+                    <img src="img/ramirezi.jpg" style="width:100%">
+                    <div class="text">Ramirezi</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 5</div>
+                    <img src="img/chinese.jpg" style="width:100%">
+                    <div class="text">Néon Chinês</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 5</div>
+                    <img src="img/rasbora.jpg" style="width:100%">
+                    <div class="text">Rasbora Harlequim</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 5</div>
+                    <img src="img/discus.jpg" style="width:100%">
+                    <div class="text">Discus</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 5</div>
+                    <img src="img/shrimp.jpg" style="width:100%">
+                    <div class="text">Camarões</div>
+                </div>
+
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div><br>
+
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+
+            <section class="col-8">
+                <h3>Bem-vindo ao Fish Collection</h3>
+
+                <p>Aqui você pode encontar informações sobre vários tipos de peixes tropicais de água doce, plantas e
+                    equipamentos necessário para manter um aquário saudável e agradável à vista! </p>
+                <p>Qualquer pessoa que já tenha visto um aquário em todo o seu esplendor, seja de água doce ou
+                    salgada,
+                    percebeu que o mundo aquático em miniatura chama a atenção a todo o instante e atrai a
+                    imaginação.
+                    De
+                    seguida, explicamos as origens e todos os benefícios da aquariofilia.</p>
+
+                <h3> Origens da aquariofilia</h3>
+                <p> A origem da manutenção de aquários existe quase ao mesmo tempo que a criação de peixes para
+                    alimentação,
+                    embora a metodologia e o entendimento de como o aquário funciona tenham variado
+                    consideravelmente.
+                </p>
+
+                <p>É provável que as origens da aquariofilia estejam ligadas ao momento em que os peixes ficaram
+                    presos
+                    em
+                    algum tipo de lago após as enchentes das monções. Os primeiros entusiastas de aquários
+                    conhecidos
+                    foram
+                    os sumérios, que mantinham peixes em lagoas artificiais há pelo menos 4.500 anos. Se bem que os
+                    registos
+                    de manutenção de peixes também datam do antigo Egito e da Assíria.</p>
+
+                <p>Os chineses, que criaram carpas para comer desde 2000 a.C., foram provavelmente os primeiros a
+                    criar
+                    peixes com algum sucesso. Por exemplo, a criação seletiva do peixe dourado foi introduzida mais
+                    tarde no
+                    Japão, onde a criação de carpas ornamentais foi aperfeiçoada.</p>
+
+                <p>Os antigos babilónios também mantinham tanques de peixes ornamentais por volta de 500 ac.? Os
+                    antigos
+                    romanos, que criavam peixes para alimentação e entretenimento, foram os primeiros aquaristas de
+                    água
+                    salgada conhecidos, ao construir lagoas que eram abastecidas com água do mar do oceano.</p>
+
+                <div id="colapse">
+                    <img src="img/aquario.jpg" alt="Aquário" style="width: 600px;"><br>
+                </div>
+                <input type="button" id="toggle" value="Esconder/Mostrar">
+                <h3>O que é a aquariofilia</h3>
+                <p>A aquariofilia é um passatempo que permite passar um bom par de horas, é relaxante e
+                    surpreendente,
+                    porque permite descobrir diferentes espécies de peixes e os seus hábitos na vida aquática.
+                    Trata-se
+                    de
+                    uma paixão que consiste em criar e manter qualquer ser aquático num tanque ou aquário, com base
+                    em
+                    determinadas condições que vão permitir que se desenvolva plenamente.</p>
+
+                <p>Nesse sentido, o objetivo principal da aquariofilia é converter espaços em habitats naturais para
+                    que
+                    os
+                    peixes, plantas e demais animais aquáticos possam crescer e desenvolver-se da mesma forma que
+                    fariam
+                    no
+                    seu ambiente natural.</p>
+
+                <h3>Benefícios da aquariofilia</h3>
+                <p>Os aquários trazem tantos benefícios à vida quotidiana que é difícil imaginar uma razão para não
+                    ter
+                    um.
+                    Na nossa vida ocupada e caótica, todos necessitamos de formas de relaxar, ir buscar forças e
+                    reiniciar
+                    as nossas mentes.</p>
+
+                <h3>São relaxantes</h3>
+                <p>A maioria das pessoas diz que se sente relaxada cada vez que observa os peixes no aquário. Não é
+                    surpreendente por isso que alguns médicos recomendem aos seus doentes que iniciem um passatempo
+                    como
+                    a
+                    aquariofilia quando necessitam de um ambiente tranquilo.</p>
+
+                <h3>Fazem companhia, um dos excelentes benefícios da aquariofilia</h3>
+                <p>Aprender a cuidar de um aquário leva tempo, mas comporta grandes benefícios. Na verdade, como
+                    qualquer
+                    outro animal de estimação, um aquário implica tempo, mas é capaz de trazer também grandes
+                    benefícios.
+                    Como qualquer outro animal de estimação, os peixes também fazem companhia, por isso são animais
+                    com
+                    os
+                    quais podemos criar um vínculo muito forte. Cuide bem dos seus peixes e passará por momentos
+                    muito
+                    entretidos e divertidos a observá-los.</p>
+
+                <h3>São pedagógicos</h3>
+                <p>A aquariofilia é uma fonte constante de aprendizagem e de procura constante de conhecimento que
+                    nos
+                    faz
+                    não só aprender, mas também perguntar e partilhar informação. Acima de tudo é um passatempo
+                    interessante
+                    para as crianças que observam os comportamentos naturais dos peixes, na sua verdadeira natureza,
+                    em
+                    direto. Às vezes as fotos e vídeos não chegam…</p>
+
+                <h3>Mais benefícios da aquariofilia… Reduz o stress</h3>
+                <p>Acredite que um dos maiores benefícios da aquariofilia é que os aquários ajudam a reduzir o
+                    stress
+                    das
+                    crianças que têm problemas de hiperatividade e de comportamento. As cores chamativas e o som da
+                    água
+                    são
+                    elementos anti-stress, para além de que os aquários contagiam o bom humor e ajudam a dormir
+                    melhor.
+                </p>
+
+                <p>Agora que já conhece a origem da aquariofilia e quais são os benefícios que pode trazer a todos
+                    os
+                    que se
+                    entusiasmam em ter um aquário em casa, experimente uma aventura no mundo dos peixes e aquários.
+                    Encontre <a href="peixes.html">aqui</a> informações sobre várias espécies!
+                </p>
+            </section>
+            <aside class="col-4">
+                <div class="asideDiv">
+                    <img class="arowana" src="img/arowana.jpg" alt="arowana">
+                    <P>Arowana</P>
+                    <br><br><br>
+
+                    <div id="openweathermap-widget-14"></div>
+
+                    <div id="listaCidades">
+                        <h1>Outras localizações</h1>
+                        <p id="funchal">Funchal</p>
+                        <p id="faro">Faro</p>
+                        <P id="porto">Porto</P>
+                        <div id="informacaoTempo"></div>
+                    </div>
+                </div>
+                <hr>
+                <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                <div class="elfsight-app-1f84f519-9306-47fd-ba73-080e74be2943 maps"></div>
+            </aside>
+        </div>
+    </div>
+
+
+    <footer>
+
+        <p class="creditos">@copyright Pedro Teixeira</p>
+    </footer>
+    <script src="js/jquery-3.5.1.min.js"></script>
+
+    <script src="jsProjetoFinal.js"></script>
+
+
+</body>
+
+</html>
